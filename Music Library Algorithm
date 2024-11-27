@@ -1,0 +1,25 @@
+1. Define the User class:
+-Create name and song attributes that store the name and then the songs, using self.name and self.songs
+--Crete methods for the class User:
+---add a song
+---retrieve a song
+---update a song
+---delete a song
+---display songs
+2. Define the MusicOrganizer class with the following methods:
+-first create the self.users attributes that stores all the users and their corresponding name
+-initilize the music organizer with an empty dictonary of users and notes there's no current user
+-add_user adds a new user by their name and then sets it to the current user
+-main loop is included in the class MusicOrganizer and the main loop begins
+3. Main loop
+-If there are no current users, code will make user enter a name before starting, and will then make that user the current user.
+-menu displays options 1-8
+---Option 1: add_user calls the add_user method from class User and stores it in self.users attribute.
+---Option 2: change_user asks the user for the username to switch to and makes that the current user, and if that user does not exist, returns an error.
+---Option 3: add_song prompts user for the title and the arist and calls add_song method from class User to add song to the current users collection.
+---Option 4: get_song (Retrieve) prompts for the user to enter a song title to retrieve the artist details, calls get_song method from class User.
+---Option 5: update_song prompts the user for the song title and then the new artist, calls update_song method from class User.
+---Option 6: delete_song prompts the user for the song title they wish to delete, calls delete_song method from class User.
+---Option 7: display_songs() calls method from class User and display all the songs in the current users collection.
+---Option 8: Exists the program with break
+
